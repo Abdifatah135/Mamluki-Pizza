@@ -11,11 +11,25 @@ body {
   background-position: center;
   width: 100%;
 }
-#intro {
+#intro{
   color: white;
   text-align: center;
-  padding-top: 350px;
-  font-size: 30px;
+  padding-top: 400px;
   font-style: italic;
-  font-family: ;
+
+}
+#intro h1{
+  font-size: 70px;
+}
+.thin img{
+  padding: 50px;
+}
+#header{
+  text-align: center;
+  padding-top: 20px;
+}
+#intro a{
+  margin: 50px;
+  font-size: 30px;
+  border-radius: 20%;
 }
