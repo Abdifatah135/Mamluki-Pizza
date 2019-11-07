@@ -7,16 +7,22 @@ body {
   background-image: url("../images/pexels-photo-803290.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+
   background-position: center;
   width: 100%;
 }
+
+#intro1 {
+  height: 100vh;
+}
+
 #intro {
   color: white;
   text-align: center;
   padding-top: 400px;
   font-style: italic;
 }
+
 #intro h1 {
   font-size: 70px;
 }
@@ -25,17 +31,23 @@ body {
   text-align: center;
   padding-top: 20px;
 }
-#intro a {
+/* #intro a {
   margin: 50px;
+  
+} */
+
+#order {
   font-size: 30px;
   border-radius: 20%;
+  margin-top: 20vh;
 }
-.menu{
+
+.menu {
   height: 50vh;
 }
-#placeorder{
+#placeorder {
   height: 100vh;
 }
-h5{
-  text-align: center;                                  
+h5 {
+  text-align: center;
 }
