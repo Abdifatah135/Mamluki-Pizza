@@ -17,14 +17,15 @@ body {
 }
 
 #intro {
-  color: white;
+  color: whitesmoke;
   text-align: center;
-  padding-top: 400px;
+  padding-top: 200px;
   font-style: italic;
 }
 
 #intro h1 {
-  font-size: 70px;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 #header {
@@ -37,7 +38,7 @@ body {
 } */
 
 #order {
-  font-size: 30px;
+  font-size: 100px;
   border-radius: 20%;
   margin-top: 20vh;
 }
@@ -46,7 +47,7 @@ body {
   height: 50vh;
 }
 #placeorder {
-  height: 100vh;
+  padding-top: 5vh;
 }
 h5 {
   text-align: center;
