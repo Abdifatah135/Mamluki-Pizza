@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 body {
-  font-family: Lato;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .intro {
@@ -25,7 +25,7 @@ body {
 
 #intro h1 {
   font-size: 50px;
-  font-weight: bolder
+  font-weight: bolder;
 }
 
 #header {
