@@ -68,25 +68,55 @@
         </div>
       </div>
       <div class="container">
-          <h2>PLACE YOU ORDER HERE!!!</h2>
+        <h2>PLACE YOU ORDER HERE!!!</h2>
         <form id="ordering text-center">
           <div id="new-order">
             <div class="new-order">
-            <label for="crust">Select the Crust</label>
+              <label for="crust"><strong>Crust</strong></label>
 
-    <select class="form-control" id="crust">
-             <option selected>choose...</option>
-              <option value="crispy">Crispy     @150 ksh</option>
-              <option value="stuffed">Stuffed     @200 ksh</option>
-              <option value="gluten-free"> Gluten-free     @250 ksh</option>
-            </select><br><br>
-<label for="topping">Select the pizza topping(s)</label>
+              <select class="form-control" id="crust">
+                <option selected>choose...</option>
+                <option value="crispy">Crispy @150 ksh</option>
+                <option value="stuffed">Stuffed @200 ksh</option>
+                <option value="gluten-free">
+                  Gluten-free @250 ksh</option
+                > </select
+              ><br /><br />
+              <label for="topping"><strong>Toppings</strong></label>
+              <select class="form-control" id="topping">
+                <option selected>choose...</option>
+                <option value="chicken">Chicken @300 ksh</option>
+                <option value="extra-cheese">Extra-cheese @200 ksh</option>
+                <option value="mushrooms">Mushrooms&olive @100 ksh</option>
+                <option value="onions">Onions @100 ksh</option>
+                <option value="peperoni">Peperoni @120 ksh</option>
+                <option value="vegetables">Vegetables @200 ksh</option> </select
+              ><br /><br />
 
+              <label for="size"><strong>Size</strong></label>
+
+              <select class="form-control" id="size">
+                <option selected>choose...</option>
+                <option value="large">Large @1000 ksh</option>
+                <option value="medium">Medium @800 ksh</option>
+                <option value="small">Small @500 ksh</option> </select
+              ><br /><br />
+
+              <label for="nbr"> <strong>Quantity</strong></label>
+
+              <input
+                type="number"
+                class="form-control"
+                id="nbr"
+                min="1"
+                placeholder="Number of pizza"
+              /><br /><br />
+            </div>
+          </div>
         </form>
       </div>
       <div class="container text-center">
         <div id="placeorder">
-         
           <img
             src="./images/goo.jpg"
             alt=""
