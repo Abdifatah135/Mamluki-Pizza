@@ -74,3 +74,7 @@ h5 {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
+h2{
+  text-align: center;
+  padding-top: 100px;
+}
