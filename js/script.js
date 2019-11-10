@@ -43,3 +43,24 @@ var cost, totalCost;
        if (crusts === "crispy"){
          totalCost = cost + 150;
        }
+       else if (crusts === "stuffed") {
+        totalCost = cost + 200;
+      }
+      else if (crusts === "gluten-free") {
+        totalCost = cost + 250;
+      }
+      break;
+      case sizes = "small" :
+      cost = 500;
+      if (crusts === "crispy"){
+        totalCost = cost + 150;
+      }
+      else if (crusts === "stuffed") {
+        totalCost = cost + 200;
+      }
+      else if (crusts === "gluten-free") {
+        totalCost = cost + 250;
+      }
+      break;
+   }
+      
