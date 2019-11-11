@@ -1,4 +1,4 @@
-/*function Order(crust, topping, size, number, totalCost) {
+function Order(crust, topping, size, number, totalCost) {
   this.crust = crust;
   this.topping = topping;
   this.size = size;
