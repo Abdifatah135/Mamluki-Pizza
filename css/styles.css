@@ -15,6 +15,11 @@ body {
 #intro1 {
   height: 100vh;
 }
+.place{
+  font-size: 100px;
+  border-radius: 50%;
+  margin-top: 10vh;
+}
 
 #intro {
   color: whitesmoke;
@@ -38,9 +43,7 @@ body {
 } */
 
 #order {
-  font-size: 100px;
-  border-radius: 20%;
-  margin-top: 20vh;
+  
 }
 
 .menu {
